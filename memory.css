@@ -1,0 +1,66 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+#start {
+    margin: 20px 10px;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+}
+
+#restart {
+    position: absolute;
+    margin: 20px;
+    right: 0;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 18px;
+}
+
+#leader {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+#winningMessage {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+
+.msg {
+    font-size: 24px;
+    transition: color 1500ms;
+}
