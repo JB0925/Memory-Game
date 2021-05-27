@@ -64,3 +64,45 @@
     font-size: 24px;
     transition: color 1500ms;
 }
+
+@media screen and (max-width : 1500px) {
+    #game div {
+        width: 17%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #game div {
+        width: 13%;
+    }
+    #start {
+        width: 200px;
+    }
+    #restart {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width : 675px) {
+    #game div {
+        width: 13%;
+    }
+    #start {
+        width: 150px;
+    }
+    #restart {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width : 590px) {
+    #game div {
+        width: 13%;
+    }
+    #start {
+        width: 150px;
+    }
+    #restart {
+        width: 150px;
+    }
+}
